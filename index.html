@@ -1,0 +1,858 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <title>Asiri Ekanayaka</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+
+    <script defer src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./main.js"></script>
+</head>
+<body>
+
+<!-- Splash Screen -->
+<div id="splash-screen">
+    <div class="loader"></div>
+</div>
+
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-light ">
+        <div class="container">
+            <a class="navbar-brand text-black active" href="#home">Asiri Ekanayaka</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#qualification">Qualifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
+<br id="home">
+
+<main id="main-container" class="row d-flex m-1">
+    <div id="side-nav" class="col-lg-2 order-lg-0 col-2 order-0 order-md-0 d-flex justify-content-center ">
+        <ul class="nav flex-column ">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="https://github.com/Asiri-Ekanayaka"><i class="bi bi-github"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/asiri-ekanayaka-71b2a0325/"><i class="bi bi-linkedin"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://medium.com/@asirie95"><i class="bi bi-medium"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://discord.gg/sdXbvbuT"><i class="bi bi-discord" ></i></a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="description" class="col-lg-5 order-lg-1 col-12 order-2 col-md-5 order-md-1 ">
+        <h1>Hi I'm</h1>
+        <h1>Asiri Ekanayaka</h1>
+        <div id="designation-container">
+            <span></span>
+            <div id="cursor"></div>
+        </div>
+        <p>Build seamless and scalable web applications, excelling in both front-end and back-end development to deliver
+            comprehensive software solutions.</p>
+        <button id="btn-contact" class="btn fs-6" type="button">Contact Me <i class="bi bi-send p-1"></i></button>
+        <a href="#about" class="nav-link d-flex align-items-center gap-1"><i class="bi bi-mouse"></i>Scroll Down<i
+                class="bi bi-arrow-down-short"></i></a>
+    </div>
+
+    <div id="main-image"
+         class="col-lg-5 order-lg-2 col-10 order-1 order-md-2 d-flex align-items-center justify-content-center ">
+        <img src="./public/image/my.png" alt="image">
+    </div>
+
+    <div id="about" class="col-lg-12 order-lg-3 col-12 order-3">
+        <div class="container">
+            <h2 class="text-center mt-5" data-aos="fade-up">About me</h2>
+            <h6 class="text-center mt-3">My Introduction</h6>
+            <div class="row d-flex justify-content-center align-items-center">
+                <div id="about-image" class="col-lg-6 text-center mb-3"></div>
+                <div class="col-lg-4 text-center">
+                    <p data-aos="fade-left">
+                        Experienced Software Engineer skilled in full-stack development, specializing in building
+                        scalable
+                        back-end systems and user-friendly front-end applications.
+                    </p>
+
+                    <div class="row d-flex justify-content-center align-items-center mt-5" data-aos="fade-up">
+                        <div class="col-4">
+                            <h3>03</h3>
+                            <p>Years experience</p>
+                        </div>
+
+                        <div class="col-4">
+                            <h3>07+</h3>
+                            <p>Completed Projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="qualification" class="col-lg-12 order-lg-3 col-12 order-4 ">
+        <div class="container">
+            <h2 class="text-center mt-5 " data-aos="fade-up">Qualifications</h2>
+            <h6 class="text-center mt-3 mb-5">My Personal Journey</h6>
+
+            <!-- Qualifications Section -->
+
+            <div id="qualification-container" class="container position-relative">
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <ul class="nav flex-column nav-pills" id="qualifications-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="work-tab" data-bs-toggle="pill" href="#work" role="tab"
+                                   aria-controls="work" aria-selected="true">
+                                    <i class="bi bi-briefcase-fill me-2"></i>Work Experience
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" id="education-tab" data-bs-toggle="pill" href="#education"
+                                   role="tab"
+                                   aria-controls="education" aria-selected="false">
+                                    <i class="bi bi-mortarboard-fill me-2"></i>Education
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="professional-tab" data-bs-toggle="pill" href="#professional"
+                                   role="tab" aria-controls="professionals" aria-selected="false">
+                                    <i class="bi bi-award-fill me-2"></i>Professional Qualifications
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" id="certifications-tab" data-bs-toggle="pill" href="#certifications"
+                                   role="tab" aria-controls="certifications" aria-selected="false">
+                                    <i class="bi bi-award-fill me-2"></i>Certifications
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="tab-content" id="qualifications-tabContent">
+                            <!-- Work Experience -->
+                            <div class="tab-pane fade show active" id="work" role="tabpanel" aria-labelledby="work-tab"
+                                 data-aos="fade-left">
+                                <div class="card shadow-sm mb-4 border-0">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-primary mb-3">Work Experience</h4>
+                                        <ul class="list-unstyled">
+                                            <!-- Job 1 -->
+                                            <li class="mb-4 d-flex align-items-start">
+                                                <i class="bi bi-laptop-fill text-info me-3"
+                                                   style="font-size: 1.5rem;"></i>
+                                                <div class="job-container">
+                                                    <h5 class="fw-bold mb-0">Software Engineer</h5>
+                                                    <div class="company d-flex justify-content-between "><p>Company:
+                                                        <strong>AppCake</strong></p>
+                                                        <p>May 2023 - Present</p></div>
+                                                    <p>Design and develop scalable backend solutions using Java and
+                                                        Spring
+                                                        Boot, ensuring robust and efficient application performance.
+                                                        Focused
+                                                        on creating and maintaining high-quality code to drive business
+                                                        success.</p>
+
+                                                    <p>
+                                                        <strong>
+                                                            <a href="#projectsDropdown1"
+                                                               class="text-decoration-none d-flex align-items-center"
+                                                               data-bs-toggle="collapse" aria-expanded="false"
+                                                               aria-controls="projectsDropdown1">
+                                                                Projects
+                                                                <i class="bi bi-chevron-down ms-2"
+                                                                   id="arrowIcon1"></i>
+                                                            </a>
+                                                        </strong>
+                                                    </p>
+
+                                                    <div class="collapse" id="projectsDropdown1">
+                                                        <ul class="mb-0 list-unstyled">
+                                                            <li><i class="bi bi-check-circle text-success me-2"></i>Harbour
+                                                                Management System
+                                                                <p class="mt-2 ">Developed a Harbour Management System
+                                                                    to streamline operations with vessel tracking, berth
+                                                                    allocation, and fee management. This system improved
+                                                                    workflow efficiency, reduced congestion, and
+                                                                    optimized resource utilization.</p>
+                                                            </li>
+
+                                                            <li><i class="bi bi-check-circle text-success me-2"></i>Mackerel
+                                                                Production and Supply System
+                                                                <p class="mt-2 ">Developed a backend for a Mackerel
+                                                                    Production and Supply System, featuring real-time
+                                                                    tracking of production processes, inventory
+                                                                    management, and supply chain optimization. The
+                                                                    system ensures efficient coordination from
+                                                                    production to distribution, enhancing overall
+                                                                    operational efficiency.</p>
+                                                            </li>
+
+                                                            <li><i class="bi bi-check-circle text-success me-2"></i>Waste
+                                                                Management System
+                                                                <p class="mt-2 ">Built a backend for a Waste Management
+                                                                    System with real-time tracking, route optimization,
+                                                                    and automated scheduling. Integrated recycling
+                                                                    program support and data analytics for efficient
+                                                                    waste management and operational cost reduction.</p>
+                                                            </li>
+
+                                                            <li><i class="bi bi-check-circle text-success me-2"></i>Advanced
+                                                                Construction Management System
+                                                                <p class="mt-2 ">Developed the front end of an Advanced
+                                                                    Construction Management System using Angular.
+                                                                    Collaborated with clients to negotiate and refine
+                                                                    requirements, ensuring that the system met their
+                                                                    needs effectively while providing a user-friendly
+                                                                    interface. Built using angular and Axios.</p>
+                                                            </li>
+
+                                                        </ul>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                            <!-- Job 2 -->
+                                            <li class="mb-4 d-flex align-items-start">
+                                                <i class="bi bi-bar-chart-fill text-info me-3"
+                                                   style="font-size: 1.5rem;"></i>
+                                                <div class="job-container">
+                                                    <h5 class="fw-bold mb-0">Associate Software Engineer</h5>
+                                                    <div class="company d-flex justify-content-between mb-0 "><p>
+                                                        Company:
+                                                        <strong>AppCake</strong>
+                                                    </p>
+                                                        <p>Sep 2022 - Apr 2023</p></div>
+                                                    <p>Contributed to the development and maintenance of software
+                                                        applications, collaborating with senior engineers to implement
+                                                        features and optimize performance. Gained hands-on experience in
+                                                        Java, Spring Boot, and database management, while honing
+                                                        problem-solving and coding skills in a fast-paced
+                                                        environment</p>
+
+                                                    <p>
+                                                        <strong>
+                                                            <a href="#projectsDropdown2"
+                                                               class="text-decoration-none d-flex align-items-center"
+                                                               data-bs-toggle="collapse" aria-expanded="false"
+                                                               aria-controls="projectsDropdown2">
+                                                                Project
+                                                                <i class="bi bi-chevron-down ms-2"
+                                                                   id="arrowIcon2"></i>
+                                                            </a>
+                                                        </strong>
+                                                    </p>
+
+                                                    <div class=" collapse" id="projectsDropdown2">
+                                                        <ul class="mb-0 list-unstyled">
+                                                            <li><i class="bi bi-check-circle text-success me-2"></i>Construction
+                                                                Management System to Donbez
+                                                                <p class="mt-2 ">Developed a custom project management
+                                                                    software for Donbez Pvt Ltd to enhance project
+                                                                    management processes. Tailored the software to meet
+                                                                    company requirements, provided training, and offered
+                                                                    ongoing support for implementing and enforcing
+                                                                    security
+                                                                    policies. Utilized Angular for the front end, Spring
+                                                                    Boot for the backend, and PostgreSQL for the
+                                                                    database,
+                                                                    delivering a comprehensive solution.</p>
+                                                            </li>
+
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <!-- Job 3 -->
+                                            <li class="d-flex align-items-start">
+                                                <i class="bi bi-person-fill text-info me-3"
+                                                   style="font-size: 1.5rem;"></i>
+                                                <div>
+                                                    <h5 class="fw-bold mb-0">Trainee Software Engineer</h5>
+                                                    <div class="job-container">
+                                                        <div class="company d-flex justify-content-between mb-0 "><p>
+                                                            Company: <strong>ISE (Pvt)Ltd</strong></p>
+                                                            <p>Jan 2022 - Aug 2022</p></div>
+                                                        <p>Proficient in Java, Spring Boot, and MERN stack with strong
+                                                            skills in
+                                                            SQL, XML, JSON, and various front-end technologies like
+                                                            Angular
+                                                            and
+                                                            React. Experienced in using Git, Docker, and cloud
+                                                            platforms.
+                                                            Skilled in managing databases such as PostgreSQL, MySQL, and
+                                                            MongoDB.</p>
+                                                        <p>
+                                                            <strong>
+                                                                <a href="#projectsDropdown3"
+                                                                   class="text-decoration-none d-flex align-items-center"
+                                                                   data-bs-toggle="collapse" aria-expanded="false"
+                                                                   aria-controls="projectsDropdown3">
+                                                                    Projects
+                                                                    <i class="bi bi-chevron-down ms-2"
+                                                                       id="arrowIcon3"></i>
+                                                                </a>
+                                                            </strong>
+                                                        </p>
+
+                                                        <div class=" collapse" id="projectsDropdown3">
+                                                            <ul class="mb-0 list-unstyled">
+                                                                <li><i class="bi bi-check-circle text-success me-2"></i>Poly
+                                                                    Product Inventory System
+                                                                    <p class="mt-2 ">Intended to simplify the handling
+                                                                        of
+                                                                        supplier data, stock levels, and product
+                                                                        management.
+                                                                        Important characteristics consist of :
+                                                                    </p>
+
+                                                                    <ul>
+                                                                        <li>Real-time inventory tracking</li>
+                                                                        <li>Generating reports on stock levels</li>
+                                                                        <li>Managing purchase orders</li>
+                                                                    </ul>
+
+
+                                                                    <p class="mt-2">The system aimed to reduce manual
+                                                                        effort
+                                                                        and improve
+                                                                        inventory accuracy and efficiency.</p>
+                                                                    <ul class="list-unstyled mb-3">
+                                                                        <li>Role : Back-end Development</li>
+                                                                    </ul>
+                                                                </li>
+
+                                                                <li>
+                                                                    <i class="bi bi-check-circle text-success me-2 "></i>CRM
+                                                                    Application for E-commerce Web Site
+                                                                    <p class="mt-2 ">CRM application that makes group
+                                                                        and
+                                                                        individual instant messaging easier. User
+                                                                        authentication, group and private chats, message
+                                                                        histories, and media sharing are all supported
+                                                                        by
+                                                                        the application. It offers a dynamic design and
+                                                                        fresh message notifications to ensure a smooth
+                                                                        communication experience.
+
+                                                                    </p>
+
+                                                                    <ul class="list-unstyled">
+                                                                        <li>Role : Front-end Development</li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <!-- Job 4 -->
+                                            <li class="d-flex align-items-start mt-4">
+                                                <i class="bi bi-briefcase-fill text-info me-3"
+                                                   style="font-size: 1.5rem;"></i>
+                                                <div>
+                                                    <h5 class="fw-bold mb-0">Project Engineer</h5>
+                                                    <div class="job-container">
+                                                        <div class="company d-flex justify-content-between mb-0 "><p>
+                                                            Company: <strong>SGCC</strong></p>
+                                                            <p>Jan 2021 - Oct 2021</p></div>
+                                                        <p>Led and managed engineering projects from concept through
+                                                            completion, ensuring adherence to budgets, timelines, and
+                                                            quality standards. Coordinated with cross-functional teams,
+                                                            prepared detailed project plans, and implemented innovative
+                                                            solutions to overcome technical challenges. Focused on
+                                                            optimizing project efficiency, compliance with regulations,
+                                                            and
+                                                            achieving client satisfaction.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <!-- Job 5 -->
+                                            <li class="d-flex align-items-start mt-4">
+                                                <i class="bi bi-briefcase-fill text-info me-3"
+                                                   style="font-size: 1.5rem;"></i>
+                                                <div>
+                                                    <h5 class="fw-bold mb-0">Project Engineer</h5>
+                                                    <div class="job-container">
+                                                        <div class="company d-flex justify-content-between mb-0 "><p>
+                                                            Company: <strong>Sierra</strong></p>
+                                                            <p>Mar 2018 - Dec 2020</p></div>
+                                                        <p>Oversaw on-site construction activities, ensuring project
+                                                            specifications, safety regulations, and quality standards
+                                                            were
+                                                            met. Coordinated with contractors and suppliers, monitored
+                                                            progress, and resolved technical issues to keep projects on
+                                                            track. Prepared reports, managed resources, and liaised with
+                                                            stakeholders to ensure efficient execution and successful
+                                                            project delivery.</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Education -->
+                            <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab"
+                                 data-aos="fade-left">
+                                <div class="card shadow-sm mb-4 border-0">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-primary mb-3">Education</h4>
+                                        <div class="d-flex ">
+
+                                            <i class="bi bi-mortarboard-fill text-info me-3"
+                                               style="font-size: 1.5rem;"></i>
+                                            <div>
+                                                <h5 class="fw-bold mb-0">Bachelor of Engineering</h5>
+                                                <p class="mb-0">Institute : <strong>Institution of Engineering Sri
+                                                    Lanka</strong></p>
+                                                <p class="mb-4">2015-2019</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex ">
+                                            <i class="bi bi-mortarboard-fill text-info me-3"
+                                               style="font-size: 1.5rem;"></i>
+                                            <div>
+                                                <h5 class="fw-bold mb-0">Bachelor of Information Technology</h5>
+                                                <p class="mb-0">University : <strong>University of Colombo School of
+                                                    Computing</strong></p>
+                                                <p class="mb-4">2023-2026</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex ">
+                                            <i class="bi bi-mortarboard-fill text-info me-3"
+                                               style="font-size: 1.5rem;"></i>
+                                            <div>
+                                                <h5 class="fw-bold mb-0">Diploma in software Engineering</h5>
+                                                <p class="mb-0">Institute: <strong>Institute of Software Engineering
+                                                    (IJSE)</strong></p>
+                                                <p class="mb-4">2023-2024</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Professional-->
+                            <div class="tab-pane fade" id="professional" role="tabpanel"
+                                 aria-labelledby="professional-tab" data-aos="fade-left">
+                                <div class="card shadow-sm mb-4 border-0">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-primary mb-3">Professional Qualifications</h4>
+                                        <ul class="list-unstyled">
+                                            <li class="d-flex align-items-start mb-3">
+                                                <i class="bi bi-certificate-fill text-info me-3"
+                                                   style="font-size: 1.5rem;"></i>
+                                                <div>
+                                                    <h5 class="fw-bold mb-0">Associate Member</h5>
+                                                    <div class="text-muted">Institution of Engineering Sri Lanka</div>
+                                                    <div class="text-muted"><small>Membership Number : AM-26373</small>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex align-items-start">
+                                                <i class="bi bi-certificate-fill text-info me-3"
+                                                   style="font-size: 1.5rem;"></i>
+                                                <div>
+                                                    <h5 class="fw-bold mb-0">Associate Engineer</h5>
+                                                    <div class="text-muted">Engineering Council of Sri Lanka</div>
+                                                    <div class="text-muted"><small>Registration Number : 213057</small>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Certifications -->
+                            <div class="tab-pane fade" id="certifications" role="tabpanel"
+                                 aria-labelledby="certifications-tab" data-aos="fade-left">
+                                <div class="card shadow-sm mb-4 border-0">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-primary mb-3">Certifications</h4>
+                                        <ul class="list-unstyled">
+                                            <li class="d-flex align-items-start mb-3">
+                                                <i class="bi bi-certificate-fill text-info me-3"
+                                                   style="font-size: 1.5rem;"></i>
+                                                <div>
+                                                    <h5 class="fw-bold mb-0">Certified Java Developer</h5>
+                                                    <small class="text-muted">Oracle Certified Professional</small>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex align-items-start">
+                                                <i class="bi bi-certificate-fill text-info me-3"
+                                                   style="font-size: 1.5rem;"></i>
+                                                <div>
+                                                    <h5 class="fw-bold mb-0">Python for Beginners</h5>
+                                                    <small class="text-muted">Certification from University of
+                                                        Moratuwa</small>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="skills" class="col-lg-12 order-lg-4 col-12 order-5">
+        <div class="container">
+            <h2 class="text-center mt-5">Skills</h2>
+            <h6 class="text-center mt-3">My Tech Stack</h6>
+            <div id="skill-set" class="text-center ">
+
+
+                <div class="row">
+
+
+                    <div class="col-md-4">
+                        <h5>Programming | Expressions Languages </h5>
+                        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white"
+                             alt="Java"/>
+                        <img src="https://img.shields.io/badge/ECMAScript-FFBE0B?style=flat-square&logo=javascript&logoColor=black"
+                             alt="ECMAScript"/>
+                        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"
+                             alt="TypeScript"/>
+                        <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"
+                             alt="SQL"/>
+                        <img src="https://img.shields.io/badge/XML-FF6600?style=flat-square&logo=xml&logoColor=white"
+                             alt="XML"/>
+                        <img src="https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white"
+                             alt="JSON"/>
+                        <img src="https://img.shields.io/badge/YAML-00008B?style=flat-square&logo=yaml&logoColor=white"
+                             alt="YAML"/>
+                        <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white"
+                             alt="Markdown"/>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <h5>Front-end Frameworks and Libraries</h5>
+                        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"
+                             alt="HTML"/>
+                        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"
+                             alt="CSS"/>
+                        <img src="https://img.shields.io/badge/SCSS-CC6699?style=flat-square&logo=sass&logoColor=white"
+                             alt="SCSS"/>
+                        <img src="https://img.shields.io/badge/RegExp-008080?style=flat-square&logo=regex&logoColor=white"
+                             alt="RegExp"/>
+                        <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white"
+                             alt="Angular"/>
+                        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"
+                             alt="ReactJS"/>
+                        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"
+                             alt="Firebase"/>
+                        <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white"
+                             alt="Bootstrap"/>
+                    </div>
+
+                    <div class="col-md-4">
+                        <h5>Back-end Frameworks and Libraries</h5>
+                        <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"
+                             alt="Spring Boot"/>
+                        <img src="https://img.shields.io/badge/Spring%20Framework-6DB33F?style=flat-square&logo=spring&logoColor=white"
+                             alt="Spring Framework"/>
+                        <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white"
+                             alt="Spring Security"/>
+                        <img src="https://img.shields.io/badge/Spring%20Data-6DB33F?style=flat-square&logo=springdata&logoColor=white"
+                             alt="Spring Data"/>
+                        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"
+                             alt="Node JS"/>
+                        <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white"
+                             alt="Express JS"/>
+                        <img src="https://img.shields.io/badge/Java%20FX-5382a1?style=flat-square&logo=java&logoColor=white"
+                             alt="Java FX"/>
+                        <img src="https://img.shields.io/badge/Jackson%20Data%20Bind-2D6DB0?style=flat-square&logo=jackson&logoColor=white"
+                             alt="Jackson Data Bind"/>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h5>Tools | IDEs</h5>
+                        <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"
+                             alt="Git"/>
+                        <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"
+                             alt="GitHub"/>
+                        <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white"
+                             alt="Google Cloud"/>
+                        <img src="https://img.shields.io/badge/Lombok-DA2C43?style=flat-square&logo=lombok&logoColor=white"
+                             alt="Lombok"/>
+                        <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white"
+                             alt="Maven"/>
+                        <img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white"
+                             alt="Gradle"/>
+                        <img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white"
+                             alt="npm"/>
+                        <img src="https://img.shields.io/badge/pnpm-F69220?style=flat-square&logo=pnpm&logoColor=white"
+                             alt="pnpm"/>
+                        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"
+                             alt="Docker"/>
+                        <img src="https://img.shields.io/badge/Docker%20Compose-2496ED?style=flat-square&logo=docker&logoColor=white"
+                             alt="Docker Compose"/>
+                        <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"
+                             alt="Postman"/>
+                        <img src="https://img.shields.io/badge/Mockoon-1F1F1F?style=flat-square&logo=mockoon&logoColor=white"
+                             alt="Mockoon"/>
+                        <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white"
+                             alt="Slack"/>
+                        <img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white"
+                             alt="Discord"/>
+                        <img src="https://img.shields.io/badge/InteliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white"
+                             alt="InteliJ IDEA"/>
+                        <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078D4?style=flat-square&logo=visualstudiocode&logoColor=white"
+                             alt="Visual Studio Code"/>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <h5>DBMS</h5>
+                        <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white"
+                             alt="PostgreSQL"/>
+                        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"
+                             alt="MySQL"/>
+                        <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"
+                             alt="MongoDB"/>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <br>
+
+    </section>
+
+    <section id="projects" class="col-lg-12 order-lg-5 col-12 order-6 mt-5 ">
+        <div class="container">
+            <h2 class="text-center mt-5">Projects</h2>
+            <h6 class="text-center mt-3">My Recent Projects</h6>
+            <div class="container">
+                <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <div class="row d-flex justify-content-center align-items-center mb-4">
+                                <div class="col-md-4 col-12 d-flex justify-content-center">
+                                    <img src="./public/image/ninja-girl.png"
+                                         class="position-relative w-75 justify-content-center rounded"
+                                         alt="Project Image">
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <h3 class="project-title mt-4">Save Ninja Girl Game</h3>
+                                    <p>Fun and interactive game where the player controls a ninja, helping him to jump,
+                                        run, avoid obstacles and destroy the plane to save his little girl.</p>
+                                    <a href="https://save-the-ninja-girl-game.web.app/" class="btn btn-danger">More <i
+                                            class="bi bi-caret-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item ">
+                            <div class="row d-flex justify-content-center align-items-center mb-4">
+                                <div class="col-md-4 col-12 d-flex justify-content-center">
+                                    <img src="./public/image/to-do-app.png"
+                                         class="position-relative w-75 justify-content-center rounded"
+                                         alt="Project Image">
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <h3 class="project-title mt-4">To-Do List App</h3>
+                                    <p>TO-DO List applications help you manage your daily tasks efficiently with a clean
+                                        and responsive interface.</p>
+                                    <a href="https://github.com/Asiri-Ekanayaka/to-do-list-app.git"
+                                       class="btn btn-danger">More <i
+                                            class="bi bi-caret-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item ">
+                            <div class="row d-flex justify-content-center align-items-center mb-4">
+                                <div class="col-md-4 col-12 d-flex justify-content-center">
+                                    <img src="./public/image/harbor.jpg"
+                                         class="position-relative w-75 justify-content-center rounded"
+                                         alt="Project Image">
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <h3 class="project-title mt-4">Harbor management system</h3>
+                                    <p>Harbor management system, specializing in backend development for berth
+                                        allocation and fee management.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item ">
+                            <div class="row d-flex justify-content-center align-items-center mb-4">
+                                <div class="col-md-4 col-12 d-flex justify-content-center">
+                                    <img src="./public/image/mackeral.jpg"
+                                         class="position-relative w-75 justify-content-center rounded"
+                                         alt="Project Image">
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <h3 class="project-title mt-4">Mackerel production and supply system</h3>
+                                    <p>Backend for a Mackerel Production and Supply System, incorporating real-time
+                                        tracking of production processes, inventory management, and supply chain
+                                        optimization.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item ">
+                            <div class="row d-flex justify-content-center align-items-center mb-4">
+                                <div class="col-md-4 col-12 d-flex justify-content-center">
+                                    <img src="./public/image/waste_management.jpg"
+                                         class="position-relative w-75 justify-content-center rounded"
+                                         alt="Project Image">
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <h3 class="project-title mt-4">Waste Management System</h3>
+                                    <p>Developed the backend for a Waste Management System, specializing in data
+                                        analytics to reduce operational costs and enhance overall waste management
+                                        processes.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Controller-->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel"
+                                data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel"
+                                data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+                        <!-- Dots/Indicators -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active"
+                                    aria-current="true"></button>
+                            <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="3"></button>
+                            <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="4"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact" class="col-lg-12 order-lg-5 col-12 order-7 mt-5">
+        <div class="container">
+            <h2 class="text-center">Contact Me</h2>
+            <h6 class="text-center mt-3">Get in Touch</h6>
+            <div class="d-flex justify-content-around mt-4">
+
+                <div id="contact-card" class="d-flex justify-content-between ">
+
+                    <div id="detail-card" class="d-flex justify-content-around align-items-center">
+
+                        <div class="card">
+                            <i class="bi bi-telephone-plus-fill me-2"></i>
+                            <div><h6>Call Me</h6><a href="tel:+94765945400" class="text-decoration-none">+94 76 594
+                                5400</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <i class="bi bi-envelope-at-fill me-2"></i>
+                            <div><h6>Email Me</h6><a href="mailto:asirie95@email.com" class="text-decoration-none">asirie95@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <i class="bi bi-geo-alt-fill me-2"></i>
+                            <div><h6>Location</h6><a class="text-decoration-none">Nugegoda, Sri Lanka</a></div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<br>
+
+<footer id="footer" class="mt-5">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap py-4">
+
+        <div class="text-center">
+            <h2 class="mb-2">Asiri Ekanayaka</h2>
+            <h6>Software Engineer / Developer</h6>
+        </div>
+
+        <div class="d-flex gap-4">
+            <a href="#home" class="text-decoration-none text-light">Home</a>
+            <a href="#contact" class="text-decoration-none text-light">Contact</a>
+            <a href="#projects" class="text-decoration-none text-light">Projects</a>
+        </div>
+
+        <div class="d-flex gap-4">
+            <a href="https://github.com/Asiri-Ekanayaka" class="text-decoration-none text-light"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/asiri-ekanayaka-71b2a0325/" class="text-decoration-none text-light"><i class="bi bi-linkedin"></i></a>
+        </div>
+    </div>
+
+    <div class="text-center mt-3">
+        <p class="text-light mb-0">&copy; 2024 Asiri Ekanayaka. All rights reserved.</p>
+    </div>
+</footer>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
